@@ -594,7 +594,7 @@
 (def usb-holder-space  (translate (map + usb-holder-position [0 (* -1 wall-thickness) 1]) usb-holder-cube))
 (def usb-holder-holder (translate usb-holder-position (cube 19 12 4)))
 
-(def usb-jack (translate (map + usb-holder-position [-5 10 5]) (cube 22.1 27 7.1)))
+(def usb-jack (translate (map + usb-holder-position [-7 10 5]) (cube 20.1 25 7.1)))
 
 (def pro-micro-position (map + (key-position 0 1 (wall-locate3 -1 0)) [-6 2 -15]))
 (def pro-micro-space-size [4 10 12]) ; z has no wall;
@@ -747,6 +747,6 @@
 
 (spit "things/test.scad"
       (write-scad
-       (difference )))
+       (difference trrs-holder trrs-holder-hole)))
 
 (defn -main [dum] 1)  ; dummy to make it easier to batch
