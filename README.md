@@ -1,18 +1,14 @@
 # Dactyl ManuForm Mini Keyboard
 
-This is a fork of the [Dactyl-ManuForm](https://github.com/tshort/dactyl-keyboard). The Dactyl-Manuform is a fork of the [Dactyl](https://github.com/adereth/dactyl-keyboard) with the thumb cluster from [ManuForm](https://github.com/jeffgran/ManuForm).
+This is a fork of the [Dactyl-ManuForm-Mini](https://github.com/l4u/dactyl-manuform-mini-keyboard). The Dactyl-Manuform-Mini is a fork of the [Dactyl-Manuform](https://github.com/tshort/dactyl-keyboard), which is a fork of the [Dactyl](https://github.com/adereth/dactyl-keyboard) with the thumb cluster from [ManuForm](https://github.com/jeffgran/ManuForm).
 
 ## Features
 
-- The use of sidenubs can be disabled. Sidenub should be disabled if you use Kailh, and Outemu. If you use Cherry MX, Gateron or Zealios switches, you can enable the sidenubs.
-- Spaces for rentention tabs are added.
-- One key in the thumb cluster has been removed. Other thumb keys are also adjusted.
-- The total height is reduced and wire posts are removed. This results in a
-  higher printing speed and a lower cost.
-- A TRRS mount instead of a RJ9 mount is used.
-- A micro USB mount is used. A breakout board, or an extension cable can be used.
-- Screw posts are moved inside. The holes are designed for TRISERT® thread inserts 145m3.
-- The pro micro holder has been modified. Dupont cables can be used.
+- The use of sidenubs is disabled by default. Sidenub should be disabled if you use Kailh, and Outemu. If you use Cherry MX, Gateron or Zealios switches, you can enable the sidenubs.
+- Top surface is extra thick (3mm), so it can be printed with wooden PLA filament (which is brittle)
+- The TRSS hole is bigger for another type of female insert
+- The USB hole is bigger, so it can house an adapter. The adapter is to be printed separately. At the moment the only adapter that has been made is an USB-C one. 
+- The USB and TRSS holders have been removed
 
 ## Getting the case and bottom plate
 
@@ -24,18 +20,9 @@ This is a fork of the [Dactyl-ManuForm](https://github.com/tshort/dactyl-keyboar
 * Make changes to design, repeat `load-file`, OpenSCAD will watch for changes and rerender.
 * When done, use OpenSCAD to export STL files
 
-### Option 2: Download from Thingiverse
-
-[Dactyl ManuForm Mini on Thingiverse](https://www.thingiverse.com/l4u/collections/dactyl-manuform-mini)
-
-### Option 3: Order from Shapeways
-
-[Order from Shapeways](https://www.shapeways.com/shops/beekeeb)
-
 ## License
 
-Copyright © 2015-2018 Matthew Adereth, Tom Short and Leo Lou
+Copyright © 2015-2019 Matthew Adereth, Tom Short, Leo Lou and Quentin Lebastard
 
 The source code for generating the models is distributed under the [GNU AFFERO GENERAL PUBLIC LICENSE Version 3](LICENSE).
 
-The generated models are distributed under the [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](LICENSE-models).
