@@ -6,10 +6,10 @@ This is a fork of the [Dactyl-ManuForm-Mini](https://github.com/l4u/dactyl-manuf
 
 Here is the list of features which have been added after the fork from the Dactyl Manuform Mini:
 
-- The use of sidenubs is disabled by default. Sidenub should be disabled if you use Kailh, and Outemu. If you use Cherry MX, Gateron or Zealios switches, you can enable the sidenubs.
+- The use of sidenubs is disabled by default. 
 - Top surface is extra thick (3mm), so it can be printed with wooden PLA filament (which is brittle)
-- The TRSS hole is bigger for another type of female insert
-- The USB hole is bigger, so it can house an adapter. The adapter is to be printed separately. At the moment the only adapter that has been made is an USB-C one. 
+- The TRSS hole is bigger to use another type of female insert
+- The USB hole is bigger, so it can house an adapter. The adapter is to be designed and printed separately. At the moment the only adapter that has been made is an USB-C one. 
 - The USB and TRSS holders have been removed
 
 ## Getting the case and bottom plate
