@@ -4,7 +4,7 @@ This is a fork of the [Dactyl-ManuForm-Mini](https://github.com/l4u/dactyl-manuf
 
 ## Features
 
-Here are listed the features which have been added after the frok from the Dactyl Manuform Mini:
+Here is the list of features which have been added after the fork from the Dactyl Manuform Mini:
 
 - The use of sidenubs is disabled by default. Sidenub should be disabled if you use Kailh, and Outemu. If you use Cherry MX, Gateron or Zealios switches, you can enable the sidenubs.
 - Top surface is extra thick (3mm), so it can be printed with wooden PLA filament (which is brittle)
