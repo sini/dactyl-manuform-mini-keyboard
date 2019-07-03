@@ -9,6 +9,7 @@ Here is the list of features which have been added after the fork from the Dacty
 - The use of sidenubs is disabled by default. 
 - Top surface is extra thick (3mm), so it can be printed with wooden PLA filament (which is brittle)
 - The TRSS hole is bigger to use another type of female insert
+- TRSS hole has hole around it so the insert can go in deeper
 - The USB hole is bigger, so it can house an adapter. The adapter is to be designed and printed separately. At the moment the only adapter that has been made is an USB-C one. 
 - The USB and TRSS holders have been removed
 
