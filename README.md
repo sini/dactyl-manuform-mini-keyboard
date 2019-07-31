@@ -29,3 +29,14 @@ Copyright © 2015-2019 Matthew Adereth, Tom Short, Leo Lou and Quentin Lebastard
 
 The source code for generating the models is distributed under the [GNU AFFERO GENERAL PUBLIC LICENSE Version 3](LICENSE).
 
+
+
+## Build log
+### Printing the case
+Wooden PLA material is a pain to print - had to print very slowly (roughly 40hrs per side).
+The material is quite brittle, so had to change the wall thickness to 3mm (from 2). Even with that, I managed to break a side when forcing too much. Be gentle with your keyboard ! I managed to fix it with some hot glue but something to keep in mind.
+All in all the print quality is still pretty good.
+
+It was printed with an Ender 3.
+
+!(pics/IMG_20190624_085229.jpg)
