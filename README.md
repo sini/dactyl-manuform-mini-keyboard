@@ -39,4 +39,4 @@ All in all the print quality is still pretty good.
 
 It was printed with an Ender 3.
 
-!(pics/IMG_20190624_085229.jpg)
+![printing](pics/IMG_20190624_085229.jpg)
