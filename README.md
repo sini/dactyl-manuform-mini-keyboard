@@ -55,4 +55,25 @@ The wood plates were varnished as well.
 ![bottom plates, varnished](pics/IMG_20190727_221138.jpg)
 ![bottom plates, acrylic and wood](pics/IMG_20190728_113337.jpg)
 
-## 
+## Preparing and adding the switches
+For this build I chose Aliaz switches - they're pretty silent which is one of the objectives when building this keyboard.
+
+However they are too hard for me, which is why I changed the springs to 35g and lubed the sides with some tribosys 3204.
+![with switches](pics/IMG_20190730_193144.jpg)
+
+## Adding keycaps
+Not quite sure yet of the theme I want, at the moment I went with some B&W DSA keycaps with pretty big orings - to reduce the noise even more, and because I prefer short travel.
+
+![with keycaps](pics/IMG_20190730_211238.jpg)
+
+## Adding bluetooth
+TODO: add in the HC05
+
+## Adding the rgb strip
+TODO
+
+## Wiring everything
+TODO
+
+## Add USB-C and 3.5mm jack
+TODO: 3d model
