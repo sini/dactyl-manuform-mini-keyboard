@@ -40,3 +40,19 @@ All in all the print quality is still pretty good.
 It was printed with an Ender 3.
 
 ![printing](pics/IMG_20190624_085229.jpg)
+![final result](pics/IMG_20190626_084942.jpg)
+
+## Preparing the case
+The case was varnished with four layers of wallnut varnish. Under it, I used my soldering iron to "melt in" the M3 female threads.
+
+![threads](pics/IMG_20190623_185124.jpg)
+
+## Bottom of the case
+I went to a fablab (big shootout to La Casemate) to prepare acrylic and wood plates for the bottom.
+
+The wood plates were varnished as well.
+
+![bottom plates, varnished](pics/IMG_20190727_221138.jpg)
+![bottom plates, acrylic and wood](pics/IMG_20190728_113337.jpg)
+
+## 
