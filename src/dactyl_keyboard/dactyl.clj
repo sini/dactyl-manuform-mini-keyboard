@@ -712,7 +712,7 @@
                   (union
                    key-holes
                    pinky-connectors
-                   pinky-walls
+                   ;pinky-walls
                    connectors
                    thumb
                    thumb-connectors
