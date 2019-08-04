@@ -560,20 +560,20 @@
    ; clunky bit on the top left thumb connection  (normal connectors don't work well)
    (bottom-hull
     (left-key-place cornerrow -1 (translate (wall-locate2 0 0) web-post))
-    (left-key-place cornerrow -1 (translate (wall-locate3 -1 0) web-post))
-    (thumb-bl-place (translate (wall-locate2 -0.3 1) web-post-tr))
-    (thumb-bl-place (translate (wall-locate3 -0.3 1) web-post-tr)))
+    (left-key-place cornerrow -1 (translate (wall-locate3 -0.25 0) web-post))
+    (thumb-bl-place (translate (wall-locate2 -0.3 0) web-post-tr))
+    (thumb-bl-place (translate (wall-locate3 -0.3 0) web-post-tr)))
    (hull
-    (left-key-place cornerrow -1 (translate (wall-locate2 -1 0) web-post))
-    (left-key-place cornerrow -1 (translate (wall-locate3 -1 0) web-post))
+    (left-key-place cornerrow -1 (translate (wall-locate2 -0 0) web-post))
+    (left-key-place cornerrow -1 (translate (wall-locate3 -0 0) web-post))
     (thumb-bl-place (translate (wall-locate2 -0.3 1) web-post-tr))
     (thumb-bl-place (translate (wall-locate3 -0.3 1) web-post-tr))
     (thumb-tl-place web-post-tl))
    (hull
     (left-key-place cornerrow -1 web-post)
-    (left-key-place cornerrow -1 (translate (wall-locate1 -1 0) web-post))
-    (left-key-place cornerrow -1 (translate (wall-locate2 -1 0) web-post))
-    (left-key-place cornerrow -1 (translate (wall-locate3 -1 0) web-post))
+    (left-key-place cornerrow -1 (translate (wall-locate1 -0 0) web-post))
+    (left-key-place cornerrow -1 (translate (wall-locate2 -0 0) web-post))
+    (left-key-place cornerrow -1 (translate (wall-locate3 -0 0) web-post))
     (thumb-tl-place web-post-tl))
    (hull
     (left-key-place cornerrow -1 web-post)
@@ -585,7 +585,8 @@
     (thumb-bl-place (translate (wall-locate1 -0.3 1) web-post-tr))
     (thumb-bl-place (translate (wall-locate2 -0.3 1) web-post-tr))
     (thumb-bl-place (translate (wall-locate3 -0.3 1) web-post-tr))
-    (thumb-tl-place web-post-tl))))
+    (thumb-tl-place web-post-tl))
+    ))
 
 (def usb-holder-ref (key-position 0 0 (map - (wall-locate2  0  -1) [0 (/ mount-height 2) 0])))
 
