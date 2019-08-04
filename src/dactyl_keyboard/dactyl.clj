@@ -526,12 +526,12 @@
    (for [x (range 1 ncols)] (key-wall-brace x 0 0 0.2 web-post-tl (dec x) 0 0 0.2 web-post-tr))
 
    ; left wall
-   (for [y (range 0 lastrow)] (union (wall-brace (partial left-key-place y 1)       -0.25 0 web-post (partial left-key-place y -1) -0.25 0 web-post)
+   (for [y (range 0 lastrow)] (union (wall-brace (partial left-key-place y 1) -0.5 0 web-post (partial left-key-place y -1) -0.5 0 web-post)
                                      (hull (key-place 0 y web-post-tl)
                                            (key-place 0 y web-post-bl)
                                            (left-key-place y  1 web-post)
                                            (left-key-place y -1 web-post))))
-   (for [y (range 1 lastrow)] (union (wall-brace (partial left-key-place (dec y) -1) -0.25 0 web-post (partial left-key-place y  1) -0.25 0 web-post)
+   (for [y (range 1 lastrow)] (union (wall-brace (partial left-key-place (dec y) -1) -0.5 0 web-post (partial left-key-place y  1) -0.5 0 web-post)
                                      (hull (key-place 0 y       web-post-tl)
                                            (key-place 0 (dec y) web-post-bl)
                                            (left-key-place y        1 web-post)
