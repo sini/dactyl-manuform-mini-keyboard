@@ -513,7 +513,7 @@
 (def right-wall
   (let [tr (if (true? pinky-15u) wide-post-tr web-post-tr)
         br (if (true? pinky-15u) wide-post-br web-post-br)]
-    (union (key-wall-brace lastcol 0 0 0.5 tr lastcol 0 0.5 0 tr)
+    (union (key-wall-brace lastcol 0 0 0.2 tr lastcol 0 0.5 0 tr)
            (for [y (range 0 lastrow)] (key-wall-brace lastcol y 0.5 0 tr lastcol y 0.5 0 br))
            (for [y (range 1 lastrow)] (key-wall-brace lastcol (dec y) 0.5 0 br lastcol y 0.5 0 tr))
            (key-wall-brace lastcol cornerrow 0 -0.5 br lastcol cornerrow 0.5 0 br))))
@@ -522,8 +522,8 @@
   (union
    right-wall
    ; back wall
-   (for [x (range 0 ncols)] (key-wall-brace x 0 0 1 web-post-tl x       0 0 1 web-post-tr))
-   (for [x (range 1 ncols)] (key-wall-brace x 0 0 1 web-post-tl (dec x) 0 0 1 web-post-tr))
+   (for [x (range 0 ncols)] (key-wall-brace x 0 0 0.2 web-post-tl x       0 0 0.2 web-post-tr))
+   (for [x (range 1 ncols)] (key-wall-brace x 0 0 0.2 web-post-tl (dec x) 0 0 0.2 web-post-tr))
 
    ; left wall
    (for [y (range 0 lastrow)] (union (wall-brace (partial left-key-place y 1)       -0.1 0 web-post (partial left-key-place y -1) -0.1 0 web-post)
