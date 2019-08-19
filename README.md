@@ -67,7 +67,8 @@ Not quite sure yet of the theme I want, at the moment I went with some B&W DSA k
 ![with keycaps](pics/IMG_20190730_211238.jpg)
 
 ## Adding bluetooth
-TODO: add in the HC05
+
+Flash an HC05 with the following tutorial: https://www.instructables.com/id/Upgrade-Your-3-Bluetooth-Module-to-Have-HID-Firmwa/
 
 ## Adding the rgb strip
 TODO
