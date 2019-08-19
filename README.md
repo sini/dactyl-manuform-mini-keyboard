@@ -70,6 +70,8 @@ Not quite sure yet of the theme I want, at the moment I went with some B&W DSA k
 
 Flash an HC05 with the following tutorial: https://www.instructables.com/id/Upgrade-Your-3-Bluetooth-Module-to-Have-HID-Firmwa/
 
+You can also use an RN42 but it's going to be more expensive.
+
 ## Adding the rgb strip
 TODO
 
