@@ -79,8 +79,10 @@ TODO
 Wire the columns and rows together (there are guides online)
 
 Wire the serial using this guide: https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/dactyl_manuform
+As said [here](https://beta.docs.qmk.fm/reference/config_options), use one of these pins: D0 or D1,D2,D3,E6
 
 I used serial because it uses only 3 signals, so that I can use a standard jack cable.
+
 
 ## Add USB-C and 3.5mm jack
 TODO: 3d model
