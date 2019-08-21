@@ -76,7 +76,11 @@ You can also use an RN42 but it's going to be more expensive.
 TODO
 
 ## Wiring everything
-TODO
+Wire the columns and rows together (there are guides online)
+
+Wire the serial using this guide: https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/dactyl_manuform
+
+I used serial because it uses only 3 signals, so that I can use a standard jack cable.
 
 ## Add USB-C and 3.5mm jack
 TODO: 3d model
