@@ -104,7 +104,7 @@ I printed an adapter for the encoder, it's made by [hellmoneywarriors on reddit]
 ## Flashing with QMK
 I use the french bepo layout, the source code is in src/qmk
 
-## Glory shots
+## More pictures
 
 ![both](pics/IMG_20190824_132740.jpg)
 ![knob](pics/IMG_20190824_133445.jpg)
