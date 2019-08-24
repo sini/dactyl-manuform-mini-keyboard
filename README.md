@@ -77,6 +77,10 @@ TODO
 
 ## Wiring everything
 Wire the columns and rows together (there are guides online)
+![wired up](pics/wired.jpg)
+
+
+## Add USB-C and 3.5mm jack
 
 Wire the serial as instructed [here](https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/dactyl_manuform).
 Basically, just connect GND, VCC and D0.
@@ -84,6 +88,17 @@ As said [here](https://beta.docs.qmk.fm/reference/config_options), use one of th
 
 I used serial because it uses only 3 signals, so that I can use a standard jack cable.
 
+I used an usb-c female port to give my keyboard USB-C, using [this tutorial](https://www.scorpia.co.uk/2016/03/17/using-usb-type-c-on-hobyist-projects/). Basically: connect the mini usb's GND and VCC, and then D+ to both D+, D- to both D- on the usb-C receptacle.
 
-## Add USB-C and 3.5mm jack
-TODO: 3d model
+![usb c and jack](pics/IMG_20190824_132747.jpg)
+![spaghetti](pics/IMG_20190824_131520.jpg)
+
+## Adding a knob
+I used an EC11 knob, you need to connect its A and B lines to any of the pro micro's available pins as well as the GND.
+THen, follow [qmk's guide](https://docs.qmk.fm/#/feature_encoders)
+
+
+## Glory shots
+
+![both](pics/IMG_20190824_132740.jpg)
+![knob](pics/IMG_20190824_133445.jpg)
