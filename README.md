@@ -72,6 +72,8 @@ Flash an HC05 with the following tutorial: https://www.instructables.com/id/Upgr
 
 You can also use an RN42 but it's going to be more expensive.
 
+At this moment, I'm waiting on an USB shield to continue the wiring
+
 ## Adding the rgb strip
 TODO
 
@@ -95,7 +97,7 @@ I used an usb-c female port to give my keyboard USB-C, using [this tutorial](htt
 
 ## Adding a knob
 I used an EC11 knob, you need to connect its A and B lines to any of the pro micro's available pins as well as the GND.
-THen, follow [qmk's guide](https://docs.qmk.fm/#/feature_encoders)
+Then, follow [qmk's guide](https://docs.qmk.fm/#/feature_encoders)
 
 
 ## Glory shots
