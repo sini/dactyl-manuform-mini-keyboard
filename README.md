@@ -99,6 +99,8 @@ I used an usb-c female port to give my keyboard USB-C, using [this tutorial](htt
 I used an EC11 knob, you need to connect its A and B lines to any of the pro micro's available pins as well as the GND.
 Then, follow [qmk's guide](https://docs.qmk.fm/#/feature_encoders)
 
+I printed an adapter for the encoder, it's made by [hellmoneywarriors on reddit](https://www.reddit.com/r/MechanicalKeyboards/comments/chs82g/designed_a_new_adapter_for_installing_rotary/?st=jzpioq7c&sh=33f65e95) and can be found here: https://www.thingiverse.com/thing:3770166
+
 ## Flashing with QMK
 I use the french bepo layout, the source code is in src/qmk
 
