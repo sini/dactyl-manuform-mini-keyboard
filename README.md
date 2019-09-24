@@ -23,6 +23,14 @@ Here is the list of features which have been added after the fork from the Dacty
 * Make changes to design, repeat `load-file`, OpenSCAD will watch for changes and rerender.
 * When done, use OpenSCAD to export STL files
 
+### Option 2: Use the stl files
+
+Print right.stl and left.stl.
+
+For he bottom plate, use right-plate.svg, which can be reversed for the left. Since it's an svg file it can either be used to cut into acrylic or wood, or modified into an stl to be 3d printed.
+
+For USB-C, use the adapter usb-c-4-hole-dactyl v17.stl
+
 ## License
 
 Copyright © 2015-2019 Matthew Adereth, Tom Short, Leo Lou and Quentin Lebastard
