@@ -23,6 +23,14 @@ Here is the list of features which have been added after the fork from the Dacty
 * Make changes to design, repeat `load-file`, OpenSCAD will watch for changes and rerender.
 * When done, use OpenSCAD to export STL files
 
+### Option 2: Use the stl files
+
+Print right.stl and left.stl.
+
+For he bottom plate, use right-plate.svg, which can be reversed for the left. Since it's an svg file it can either be used to cut into acrylic or wood, or modified into an stl to be 3d printed.
+
+For USB-C, use the adapter usb-c-4-hole-dactyl v17.stl
+
 ## License
 
 Copyright © 2015-2019 Matthew Adereth, Tom Short, Leo Lou and Quentin Lebastard
@@ -97,6 +105,8 @@ I used an usb-c female port to give my keyboard USB-C, using [this tutorial](htt
 I used an EC11 knob, you need to connect its A and B lines to any of the pro micro's available pins as well as the GND.
 Then, follow [qmk's guide](https://docs.qmk.fm/#/feature_encoders)
 
+I printed an adapter for the encoder, it's made by [hellmoneywarriors on reddit](https://www.reddit.com/r/MechanicalKeyboards/comments/chs82g/designed_a_new_adapter_for_installing_rotary/?st=jzpioq7c&sh=33f65e95) and can be found here: https://www.thingiverse.com/thing:3770166
+
 
 ## Adding the rgb strip
 I added one rgb led strip on each side, on pin D1. Each side has 10 rgbw leds.
@@ -119,7 +129,12 @@ There is a guide in [qmk's official docs](https://beta.docs.qmk.fm/features/feat
 ## Flashing with QMK
 I use the french bepo layout, the source code is in [my fork](https://github.com/lebastaq/qmk_firmware)
 
-## Glory shots
+## Typing test
+
+https://youtu.be/aG2hiXtmREg
+
+
+## More pictures
 
 ![both](pics/IMG_20190824_132740.jpg)
 ![knob](pics/IMG_20190824_133445.jpg)
