@@ -74,8 +74,6 @@ You can also use an RN42 but it's going to be more expensive.
 
 At this moment, I'm waiting on an USB shield to continue the wiring
 
-## Adding the rgb strip
-TODO
 
 ## Wiring everything
 Wire the columns and rows together (there are guides online)
@@ -99,10 +97,30 @@ I used an usb-c female port to give my keyboard USB-C, using [this tutorial](htt
 I used an EC11 knob, you need to connect its A and B lines to any of the pro micro's available pins as well as the GND.
 Then, follow [qmk's guide](https://docs.qmk.fm/#/feature_encoders)
 
+
+## Adding the rgb strip
+I added one rgb led strip on each side, on pin D1. Each side has 10 rgbw leds.
+
+I had to activate the following options in `config.h`:
+
+```
+#define RGB_DI_PIN D1
+#define RGBLED_NUM 10
+#define RGBLIGHT_ANIMATIONS
+#define RGBW
+#define RGBLIGHT_SPLIT
+#define RGBLED_SPLIT { 10, 10 }
+```
+
+There is a guide in [qmk's official docs](https://beta.docs.qmk.fm/features/feature_rgblight)
+
+![rgb](pics/IMG_20191005_142206.jpg)
+
 ## Flashing with QMK
-I use the french bepo layout, the source code is in src/qmk
+I use the french bepo layout, the source code is in [my fork](https://github.com/lebastaq/qmk_firmware)
 
 ## Glory shots
 
 ![both](pics/IMG_20190824_132740.jpg)
 ![knob](pics/IMG_20190824_133445.jpg)
+![rgb](pics/IMG_20191005_160500.jpg)
