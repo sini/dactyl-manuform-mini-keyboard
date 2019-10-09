@@ -127,7 +127,7 @@ There is a guide in [qmk's official docs](https://beta.docs.qmk.fm/features/feat
 ![rgb](pics/IMG_20191005_142206.jpg)
 
 ## Flashing with QMK
-I use the french bepo layout, the source code is in [my fork](https://github.com/lebastaq/qmk_firmware)
+I use the french bepo layout, the source code is in [my fork](https://github.com/lebastaq/qmk-firmware)
 
 ## Typing test
 
