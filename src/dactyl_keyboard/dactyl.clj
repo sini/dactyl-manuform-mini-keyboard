@@ -727,29 +727,12 @@
 (spit "things/right.scad"
       (write-scad model-right))
 
-#_
+
 (spit "things/left.scad"
       (write-scad (mirror [-1 0 0] model-right)))
 
-#_
-(spit "things/right-test.scad"
-      (write-scad
-       (difference
-        (union
-         key-holes
-         pinky-connectors
-         pinky-walls
-         connectors
-         thumb
-         thumb-connectors
-         case-walls
-         thumbcaps
-         caps)
 
-        (translate [0 0 -20] (cube 350 350 40)))))
-
-#_
-(spit "things/right-plate.scad"
+(spit "things/plate.scad"
       (write-scad
        (cut
         (translate [0 0 -0.1]
@@ -758,9 +741,5 @@
                                       screw-insert-outers)
                                (translate [0 0 -10] screw-insert-screw-holes))))))
 
-#_
-(spit "things/test.scad"
-      (write-scad
-       (difference trrs-holder trrs-holder-hole)))
 
 (defn -main [dum] 1)  ; dummy to make it easier to batch
